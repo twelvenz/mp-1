@@ -69,11 +69,6 @@ main {
     color: black;
 }
 
-main p {
-    margin: 0 1vw;
-    font-size: calc(2px + 2vw);
-}
-
 #main {
     width: 100%;
     display: flex;
