@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="A website showing Elven Zheng's Resume">
+    <link type="text/css" rel="stylesheet" href="projects.css">
+    <title>Projects | Resume</title>
+</head>
+<body>
+<div id="page-wrapper">
+    <!-- header -->
+    <header>
+        <h1>Elven Zheng</h1>
+        <h2>My Projects</h2>
+    </header>
+
+    <div id="container">
+        <!-- navigation -->
+        <nav>
+            <ul>
+                <li><a href="../home/index.html">Home</a></li>
+                <li><a href="../edu/edu.html">Education</a></li>
+                <li><a href="../cert/cert.html">Certification</a></li>
+                <li><a href="../experience/exp.html">Experience</a></li>
+                <li><a href="../projects/projects.html">Projects</a></li>
+                <li><a href="../refs/refs.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- main content -->
+        <main>
+            <h3 id="main-title">Projects</h3>
+            <div class="main">
+                <div class="myCalc">
+                    <h3 id="project-title">JS Calculator</h3>
+                    <label for="first"></label><input class="input-container" id="first">
+                    <label for="second"></label><input class="input-container" id="second">
+                    <div class="button-container">
+                        <button onclick="add()"> + </button>
+                        <button onclick="sub()"> - </button>
+                        <button onclick="mul()"> * </button>
+                        <button onclick="div()"> / </button>
+                        <button onclick="power()"> ^ </button>
+                        <button onclick="myClear()"> clear </button>
+                    </div>
+                    <p id="output"></p>
+                </div>
+            </div>
+        </main>
+    </div>
+    <!--footer -->
+    <footer>
+        <p>All Rights Reserved by Elven Zheng <a href="#"> Credits</a> &copy;</p>
+    </footer>
+
+</div>
+
+<script src="projects.js"></script>
+
+</body>
+</html>
