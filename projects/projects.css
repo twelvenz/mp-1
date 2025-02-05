@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* center page */
+#page-wrapper {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+/* header */
+header {
+    display: flex;
+    flex-direction: column;
+    padding: 3vh 3vw;
+    background-color: #494D5F;
+    color: #d0bdf4;
+    text-align: left;
+}
+
+/* content */
+#container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+/* navigations */
+nav {
+    width: 25%;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #8458B3;
+    text-align: center;
+    list-style: none;
+    padding-left: 0;
+}
+
+nav li {
+    font-size: 3vw;
+    width: 80%;
+    background-color: #d0bdf4;
+    padding: 1.5vh 0;
+    margin: 4vh auto;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+/* main content */
+main {
+    display: flex;
+    flex-direction: column;
+    width:75%;
+    background-color: #d0bdf4;
+}
+
+#main-title {
+    margin: 2vw 0;
+    text-align: center;
+    font-size: 3vw;
+    color: black;
+}
+
+main p {
+    margin: 0 1vw;
+    font-size: calc(2px + 2vw);
+}
+
+#main {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 2vh 2vw;
+}
+
+#main-text {
+    align-self: center;
+    width: 60%;
+    margin: 1vh 1vw;
+}
+
+#project-title {
+    text-align: center;
+    font-size: 2vw;
+    background-color: #d0bdf4;
+    padding: 1.5vw;
+    border-radius: 1vw;
+}
+
+.myCalc {
+    max-width: 50%;
+    margin: 3vw auto;
+    padding: 3vw;
+    border-radius: 1vw;
+    background: url("../src/chip.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+input{
+    padding: 1vw;
+    margin: 2vw;
+    box-sizing: border-box;
+    font-size: 1.5vw;
+}
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 1vw;
+    width: 100%;
+    align-items: center;
+}
+
+button {
+    padding: 1vh 1.25vw;
+    font-size: 1.5vw;
+    background: #d0bdf4;
+    border: none;
+    border-radius: 2vw;
+}
+
+#output {
+    text-align: center;
+    font-size: 1.5vw;
+    margin: 1vw;
+    background: white;
+    padding: 1.5vw;
+    border-radius: 1vw;
+    width: 75%;
+}
+
+/* footer */
+footer {
+    background-color: #494D5F;
+    color: #d0bdf4;
+    padding: 1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+footer a {
+    color: #d0bdf4;
+}
+
+/* media queries */
+@media screen and (max-width: 750px) {
+    header{
+        align-items: center;
+    }
+
+    header h1{
+        font-size: 7vw;
+    }
+    header h2{
+        font-size: 4vw;
+    }
+
+    #container{
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+    }
+
+    nav{
+        width: 100%;
+    }
+
+    nav ul{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    nav li{
+        max-width: 30%;
+        font-size: 3.5vw;
+        padding: 1% .5%;
+        margin: 2% 1.5%;
+    }
+
+
+    main{
+        display: flex;
+        flex-direction: column;
+        width:100%;
+        height: 100vh;
+    }
+
+    #main-title{
+        text-align: center;
+        font-size: 6vw;
+    }
+
+    #project-title {
+        font-size: 4vw;
+        padding: 4vw;
+        border-radius: 2vw;
+    }
+
+    .myCalc {
+        max-width: 75%;
+        margin: 5vw auto;
+        padding: 5vw;
+        border-radius: 2vw;
+    }
+
+    .input-container {
+        width: 75%;
+        margin: 4vw auto;
+    }
+
+    input {
+        padding: 3vw;
+        margin: 3vw;
+        font-size: 3vw;
+    }
+
+    .button-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 2vw;
+        width: 100%;
+    }
+
+    button {
+        flex: 20%;
+        padding: 2vh 2vw;
+        font-size: 3vw;
+        background: #d0bdf4;
+        border-radius: 4vw;
+        margin: 1vw;
+    }
+
+    #output {
+        font-size: 3vw;
+        padding: 5vw;
+        border-radius: 2vw;
+        width: 90%;
+    }
+}
