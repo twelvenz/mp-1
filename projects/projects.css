@@ -87,6 +87,12 @@ main p {
     margin: 1vh 1vw;
 }
 
+.kumar-one-regular {
+    font-family: "Kumar One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 #project-title {
     text-align: center;
     font-size: 2vw;
@@ -94,6 +100,7 @@ main p {
     padding: 1.5vw;
     border-radius: 1vw;
 }
+
 
 .myCalc {
     max-width: 50%;
@@ -218,8 +225,8 @@ footer a {
 
     .myCalc {
         max-width: 75%;
-        margin: 5vw auto;
-        padding: 5vw;
+        margin: 2vw auto;
+        padding: 4vw;
         border-radius: 2vw;
     }
 
@@ -229,9 +236,9 @@ footer a {
     }
 
     input {
-        padding: 3vw;
+        padding: 2.5vw;
         margin: 3vw;
-        font-size: 3vw;
+        font-size: 2.5vw;
     }
 
     .button-container {
@@ -244,7 +251,7 @@ footer a {
 
     button {
         flex: 20%;
-        padding: 2vh 2vw;
+        padding: 1vh 1vw;
         font-size: 3vw;
         background: #d0bdf4;
         border-radius: 4vw;
@@ -253,7 +260,7 @@ footer a {
 
     #output {
         font-size: 3vw;
-        padding: 5vw;
+        padding: 4vw;
         border-radius: 2vw;
         width: 90%;
     }

@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="A website showing Elven Zheng's Resume">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumar+One&display=swap" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="projects.css">
     <title>Projects | Resume</title>
 </head>
@@ -32,18 +35,18 @@
             <h3 id="main-title">Projects</h3>
             <div class="main">
                 <div class="myCalc">
-                    <h3 id="project-title">JS Calculator</h3>
-                    <label for="first"></label><input class="input-container" id="first">
-                    <label for="second"></label><input class="input-container" id="second">
+                    <h3 id="project-title" class="kumar-one-regular">JS Calculator</h3>
+                    <label for="first"></label><input class="input-container kumar-one-regular" id="first">
+                    <label for="second"></label><input class="input-container kumar-one-regular" id="second">
                     <div class="button-container">
-                        <button onclick="add()"> + </button>
-                        <button onclick="sub()"> - </button>
-                        <button onclick="mul()"> * </button>
-                        <button onclick="div()"> / </button>
-                        <button onclick="power()"> ^ </button>
-                        <button onclick="myClear()"> clear </button>
+                        <button onclick="add()" class="kumar-one-regular"> + </button>
+                        <button onclick="sub()" class="kumar-one-regular"> - </button>
+                        <button onclick="mul()" class="kumar-one-regular"> * </button>
+                        <button onclick="div()" class="kumar-one-regular"> / </button>
+                        <button onclick="power()" class="kumar-one-regular"> ^ </button>
+                        <button onclick="myClear()" class="kumar-one-regular"> clear </button>
                     </div>
-                    <p id="output"></p>
+                    <p id="output" class="kumar-one-regular"></p>
                 </div>
             </div>
         </main>
