@@ -1,6 +1,7 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 /* center page */
@@ -104,6 +105,11 @@ main h3{
 
 .job-title {
     font-size: 2vw;
+    font-weight: bold;
+}
+
+.cmp-title{
+    font-size: 2.5vw;
     font-weight: bold;
 }
 
@@ -215,6 +221,10 @@ footer a {
 
     .job-title{
         font-size: 3vw;
+    }
+
+    .cmp-title{
+        font-size: 3.5vw;
     }
 
 }
