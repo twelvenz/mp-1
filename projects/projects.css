@@ -149,6 +149,9 @@ button {
     width: 75%;
 }
 
+label{
+    visibility: hidden;
+}
 /* footer */
 footer {
     background-color: #494D5F;
